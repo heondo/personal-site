@@ -209,6 +209,11 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+footer {
+  margin-top: 1rem;
+}
+
 img {
   max-width: 100%;
   margin-left: 0;
@@ -235,7 +240,6 @@ h1 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
-  line-height: 1.1;
 }
 h2 {
   margin-left: 0;
@@ -252,7 +256,6 @@ h2 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
-  line-height: 1.1;
 }
 h3 {
   margin-left: 0;
@@ -269,7 +272,6 @@ h3 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
-  line-height: 1.1;
 }
 h4 {
   margin-left: 0;
@@ -286,7 +288,6 @@ h4 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
-  line-height: 1.1;
 }
 h5 {
   margin-left: 0;
@@ -303,7 +304,6 @@ h5 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
-  line-height: 1.1;
 }
 h6 {
   margin-left: 0;
@@ -320,7 +320,6 @@ h6 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
-  line-height: 1.1;
 }
 hgroup {
   margin-left: 0;
@@ -615,6 +614,16 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+.contentBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 1200px;
+  padding: 0 3rem;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

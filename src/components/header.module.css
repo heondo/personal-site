@@ -1,0 +1,37 @@
+.header {
+  background-color: #4c566a;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 100%;
+  color: white;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1800px;
+}
+
+.headerLinksContainer {
+  display: flex;
+}
+
+.headerLinks {
+  text-decoration: none;
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.h1 {
+  margin: 0.8rem 0.5rem;
+}
+
+.homeLink {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+}
